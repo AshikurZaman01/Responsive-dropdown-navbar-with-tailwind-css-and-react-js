@@ -11,7 +11,7 @@ const NavLinks = () => {
         <div className="flex gap-8">
             {links.map((link, index) => (
                 <div key={index} className="cursor-pointer">
-                    <ul>
+                    <ul className="px-3 text-left">
                         <li>
                             <Link to={link.link}>{link.name}</Link>
                         </li>
